@@ -44,53 +44,53 @@ function start() {
     document.querySelector('#second3').innerHTML = second3
 
     if(second == 0) {
-        second = 59
+        second = 60
         min -= 1
         document.querySelector('#min').innerHTML = min
        
     }
 
     if(min == 0) {
-        min =59
+        min =60
         hour -= 1
         document.querySelector('#hour').innerHTML = hour
     }
 
     if(second1 == 0) {
-        second1 = 59
+        second1 = 60
         min1 -= 1
         document.querySelector('#min1').innerHTML = min
        
     }
 
     if(min1 == 0) {
-        min1 =59
+        min1 =60
         hour1 -= 1
         document.querySelector('#hour1').innerHTML = hour
     }
 
     if(second2 == 0) {
-        second2 = 59
+        second2 = 60
         min2 -= 1
         document.querySelector('#min2').innerHTML = min
        
     }
 
     if(min2 == 0) {
-        min2 =59
+        min2 =60
         hour2 -= 1
         document.querySelector('#hour2').innerHTML = hour
     }
 
     if(second3 == 0) {
-        second3 = 59
+        second3 = 60
         min3 -= 1
         document.querySelector('#min3').innerHTML = min
        
     }
 
     if(min3 == 0) {
-        min3 =59
+        min3 =60
         hour3 -= 1
         document.querySelector('#hour3').innerHTML = hour
     }
