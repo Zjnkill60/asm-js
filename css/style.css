@@ -1,0 +1,191 @@
+* {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #f8f9fa;
+    height: 100vh;
+}
+
+.content {
+    width: 1300px;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+header .content {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+}
+header img {
+    height: 100px;
+    width: 300px;
+   
+}
+main {
+    margin-top: 100px;
+    width: 100%;
+}
+
+main .content {
+   
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+   
+}
+
+.box {
+    min-height: 610px;
+    padding: 20px;
+    padding-top: 30px;
+
+}
+.box .img {
+    overflow: hidden;
+    transition: 1s;
+}
+.box .img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.title h3 {
+    font-weight: bold;
+    color: #474c51;
+}
+
+.price {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.price p {
+    color: #a7a7b1;
+    font-size: 12px;
+   
+}
+.time-countdown {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price span {
+    margin-top: 7px;
+    padding: 5px 10px;
+    background-color: #cb1c22;
+    border-radius: 20px;
+}
+
+.price strike {
+    color: #a7a7b1;
+    font-size: 15px;
+}
+
+
+.des {
+    margin-top: 15px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.des .product,.capacity {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.des span {
+    margin: 0 5px;
+}
+
+.des i {
+    margin: 5px 5px 0 0;
+}
+
+.des .logo {
+    margin-top: 20px;
+    display: flex;
+}
+
+.des .logo img {
+    border-radius: 999px;
+    margin: 0 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.des .logo img:hover {
+    border: 1px solid #cb1c22;
+}
+
+.active {
+    margin-top: 25px;
+    display: grid;
+    place-items: center;
+    display: none;
+}
+
+.active button {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #cb1c22;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.box:hover {
+    border: 2px solid #a7a7b1 ;
+    border-radius: 5px;
+}
+
+.box:hover .img  {
+    transform: translateY(-30px);
+}
+
+.box:hover .active {
+    display: grid;
+   
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+footer {
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+    background-color: #cb1c22;
+    color: #fff;
+}
