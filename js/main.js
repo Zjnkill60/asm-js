@@ -41,11 +41,8 @@ listBtn.forEach((item,index) => {
                         var inputValue = listItem[0].querySelector('input')
                         inputValue.value ++
 
-                   }
-                   
-                         
-                      
-                break
+                   }       
+                         break
             case 1: 
                            
                     var listItem = container.querySelectorAll('.item2')
@@ -199,12 +196,9 @@ function update() {
 
 function typePrice(number) {
     const formatter = new Intl.NumberFormat(undefined, {
-        // style: 'currency',
-        // currency: 'VND',
         currencyDisplay: 'name'
       })
     
-
     var number = formatter.format(sumNumber)
     return number
 }
